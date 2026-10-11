@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+dist/
+build/
+coverage/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.gocache/
+.zed/
+/fin
+
+# Ledger data lives outside this repository (README, "Journal selection").
+*.journal
+!**/testdata/**/*.journal
